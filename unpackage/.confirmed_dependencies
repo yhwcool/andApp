@@ -1,0 +1,61 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/main/main.html",
+			"html/log/login.html"
+		],
+		"refer": [
+			"html/log/login.html",
+			"html/main/main.html"
+		]
+	},
+	"html/log/login.html": {
+		"resources": [
+			"html/log/js/app.js",
+			"html/log/js/mui.enterfocus.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"html/log/images/qq.png",
+			"html/log/images/weixin.png",
+			"html/log/images/sinaweibo.png",
+			"js/jquery-3.2.1.min.js"
+		],
+		"refer": [
+			"html/log/main.html",
+			"html/main/main.html",
+			"html/log/reg.html"
+		]
+	},
+	"html/log/main.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/log/js/app.js"
+		]
+	},
+	"html/main/main.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"html/log/login.html"
+		]
+	},
+	"html/log/reg.html": {
+		"resources": [
+			"html/log/css/style.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"html/log/js/app.js"
+		],
+		"refer": [
+			"html/log/login.html"
+		]
+	}
+}

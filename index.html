@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			var token = localStorage.token;
+			console.log(token);
+			var id,
+				page;
+			token ? (page = "html/main/main.html", id = "main") : (page = "html/log/login.html", id = "login");
+			console.log(page);
+			mui.init();
+			mui.plusReady(function() {
+				plus.screen.lockOrientation("portrait-primary");
+				var webview = mui.openWindow({
+					url: page,
+					id: id,
+					extras: {
+						name: id //扩展参数
+					}
+				});
+			})
+		</script>
+	</body>
+
+</html>
