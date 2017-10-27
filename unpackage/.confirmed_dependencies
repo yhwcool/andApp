@@ -92,7 +92,12 @@
 	},
 	"html/main/tab-webview-subpage-setting.html": {
 		"resources": [
-			"js/mui.min.js"
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"html/log/login.html"
 		]
 	},
 	"html/main/tab-webview-subpage-contact.html": {

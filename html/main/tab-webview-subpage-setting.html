@@ -10,10 +10,12 @@
 
 		<link rel="stylesheet" href="../../css/mui.min.css">
 		<style>
-			html,body {
+			html,
+			body {
 				background-color: #efeff4;
 			}
-			.title{
+			
+			.title {
 				margin: 20px 15px 10px;
 				color: #6d6d72;
 				font-size: 15px;
@@ -27,7 +29,7 @@
 			<h1 class="mui-title">设置</h1>
 		</header>-->
 		<header class="mui-bar mui-bar-nav">
-		    <h1 class="mui-title">设置</h1>
+			<h1 class="mui-title">设置</h1>
 		</header>
 		<div class="mui-content">
 			<div class="title">
@@ -59,7 +61,7 @@
 			</ul>
 			<ul class="mui-table-view" style="margin-top: 25px;">
 				<li class="mui-table-view-cell">
-					<a style="text-align: center;color: #FF3B30;">
+					<a id="exit" style="text-align: center;color: #FF3B30;">
 						退出登录
 					</a>
 				</li>
@@ -70,13 +72,25 @@
 	<script src="../../js/mui.min.js"></script>
 	<script>
 		mui.init({
-			swipeBack:true //启用右滑关闭功能
+			swipeBack: true //启用右滑关闭功能
 		});
-		document.getElementById("about").addEventListener('tap',function () {
+		document.getElementById("about").addEventListener('tap', function() {
 			//获得主页面的webview
 			var main = plus.webview.currentWebview().parent();
 			//触发主页面的gohome事件
-			mui.fire(main,'gohome');
+			mui.fire(main, 'gohome');
+		});
+		document.getElementById("exit").addEventListener('tap', function() {
+			mui.openWindow({
+				url: '../log/login.html',
+				id: 'login'
+			});
+			localStorage.token = '';
+			//			//获得主页面的webview
+			//			var main = plus.webview.currentWebview().parent();
+			//			//触发主页面的gohome事件
+			//			mui.fire(main,'gohome');
 		});
 	</script>
+
 </html>
