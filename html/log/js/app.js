@@ -38,37 +38,21 @@
 		regInfo = regInfo || {};
 		regInfo.account = regInfo.account || '';
 		regInfo.password = regInfo.password || '';
-		if(regInfo.account.length < 5) {
-			return callback('用户名最短需要 5 个字符');
-		}
-		if(regInfo.password.length < 6) {
-			return callback('密码最短需要 6 个字符');
-		}
-		if(!checkEmail(regInfo.email)) {
-			return callback('身份证信息不合法');
-		}
-
-		mui.ajax('http://120.78.163.177:8091/phone/code/genManyCode.do', {
-			data: regInfo,
-			dataType: 'json', //服务器返回json格式数据
-			type: 'post', //HTTP请求类型
-			timeout: 10000, //超时时间设置为10秒；
-			success: function(data) {
-				if(data.status === 'success') {
-					//					mui.toast('验证过期，需要重新验证')
-					callback();
-				} else {}
-			},
-			error: function(xhr, type, errorThrown) {
-				mui.toast(token)
-				console.log(type);
-			}
-		});
+//		if(regInfo.account.length < 5) {
+//			return callback('用户名最短需要 5 个字符');
+//		}
+//		if(regInfo.password.length < 6) {
+//			return callback('密码最短需要 6 个字符');
+//		}
+//		if(!checkEmail(regInfo.email)) {
+//			return callback('身份证信息不合法');
+//		}
+		
 
 		//		var users = JSON.parse(localStorage.getItem('$users') || '[]');
 		//		users.push(regInfo);
 		//		localStorage.setItem('$users', JSON.stringify(users));
-		//		return callback();
+				return callback();
 	};
 
 	/**

@@ -108,14 +108,35 @@
 								plus.nativeUI.toast(err);
 								return;
 							}
-							plus.nativeUI.toast('注册成功');
-							$.openWindow({
-								url: '../main/main.html.html',
-								id: 'main',
-								show: {
-									aniShow: 'pop-in'
+							mui.ajax('http://120.78.163.177:8091/phone/code/register.do', {
+								data: {
+									UserData: [regInfo]
+								},
+								dataType: 'json', //服务器返回json格式数据
+								type: 'post', //HTTP请求类型
+								headers: {
+									'Content-Type': 'application/json'
+								},
+								timeout: 10000, //超时时间设置为10秒；
+								success: function(res) {
+									var data = res.data;
+									if(data.status === 'success') {
+										var token = data.token;
+										plus.nativeUI.toast('注册成功');
+										$.openWindow({
+											url: '../main/main.html.html',
+											id: 'main'
+										});
+									} else {
+										plus.nativeUI.toast('注册失败');
+									}
+								},
+								error: function(xhr, type, errorThrown) {
+									//									mui.toast(token)
+									console.log(errorThrown);
 								}
 							});
+
 						});
 					});
 				});
