@@ -116,13 +116,11 @@
 								type: 'post', //HTTP请求类型
 								headers: {
 									'Content-Type': 'application/json'
-								},
+								}, 
 								timeout: 10000, //超时时间设置为10秒；
-								success: function(res) {
-									var data = res.data;
+								success: function(data) {
 									if(data.status === 'success') {
-										var token = data.token;
-										plus.nativeUI.toast('注册成功');
+										localStorage.token = data.token;
 										$.openWindow({
 											url: '../main/main.html.html',
 											id: 'main'
