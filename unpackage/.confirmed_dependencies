@@ -1,88 +1,117 @@
 {
-  "index.html": {
-    "resources": [
-      "js/mui.min.js",
-      "css/mui.min.css",
-      "html/main/main.html",
-      "html/log/login.html"
-    ],
-    "refer": [
-      "html/log/login.html",
-      "html/main/main.html"
-    ]
-  },
-  "html/log/login.html": {
-    "resources": [
-      "html/log/js/app.js",
-      "html/log/js/mui.enterfocus.js",
-      "js/mui.min.js",
-      "css/mui.min.css",
-      "fonts/mui.ttf",
-      "html/log/images/qq.png",
-      "html/log/images/weixin.png",
-      "html/log/images/sinaweibo.png",
-      "js/jquery-3.2.1.min.js"
-    ],
-    "refer": [
-      "html/log/main.html",
-      "html/main/main.html",
-      "html/log/reg.html"
-    ]
-  },
-  "html/log/main.html": {
-    "resources": [
-      "js/mui.min.js",
-      "css/mui.min.css",
-      "html/log/js/app.js"
-    ]
-  },
-  "html/main/main.html": {
-    "resources": [
-      "js/mui.min.js",
-      "fonts/mui.ttf",
-      "css/mui.min.css"
-    ],
-    "refer": [
-      "html/log/login.html",
-      "html/setting/setting.html",
-      "html/list/list.html",
-      "html/record/record.html"
-    ]
-  },
-  "html/log/reg.html": {
-    "resources": [
-      "html/log/css/style.css",
-      "js/mui.min.js",
-      "fonts/mui.ttf",
-      "css/mui.min.css",
-      "html/log/js/app.js"
-    ],
-    "refer": [
-      "html/log/login.html"
-    ]
-  },
-  "html/setting/setting.html": {
-    "resources": [
-      "html/setting/js/mui.view.js",
-      "html/setting/css/feedback.css",
-      "html/setting/js/feedback.js",
-      "html/setting/img/logo.png",
-      "js/mui.min.js",
-      "fonts/mui.ttf",
-      "css/mui.min.css"
-    ]
-  },
-  "html/list/list.html": {
-    "resources": [
-      "js/mui.min.js",
-      "css/mui.min.css"
-    ]
-  },
-  "html/record/record.html": {
-    "resources": [
-      "js/mui.min.js",
-      "css/mui.min.css",
-      "fonts/mui.ttf"
-    ]
-  }
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/main/main.html",
+			"html/log/login.html"
+		],
+		"refer": [
+			"html/log/login.html",
+			"html/main/main.html"
+		]
+	},
+	"html/log/login.html": {
+		"resources": [
+			"html/log/js/app.js",
+			"html/log/js/mui.enterfocus.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"html/log/images/qq.png",
+			"html/log/images/weixin.png",
+			"html/log/images/sinaweibo.png",
+			"js/jquery-3.2.1.min.js"
+		],
+		"refer": [
+			"html/log/main.html",
+			"html/main/main.html",
+			"html/log/reg.html"
+		]
+	},
+	"html/log/main.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/log/js/app.js"
+		]
+	},
+	"html/main/main.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"html/main/tab-webview-subpage-about.html"
+		],
+		"refer": [
+			"html/log/login.html",
+			"html/setting/setting.html",
+			"html/list/list.html",
+			"html/record/record.html",
+			"html/main/tab-webview-subpage-chat.html",
+			"html/main/tab-webview-subpage-contact.html",
+			"html/main/tab-webview-subpage-setting.html",
+			"html/main/tab-webview-subpage-about.html"
+		]
+	},
+	"html/log/reg.html": {
+		"resources": [
+			"html/log/css/style.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"html/log/js/app.js"
+		],
+		"refer": [
+			"html/log/login.html"
+		]
+	},
+	"html/setting/setting.html": {
+		"resources": [
+			"html/setting/js/mui.view.js",
+			"html/setting/css/feedback.css",
+			"html/setting/js/feedback.js",
+			"html/setting/img/logo.png",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"html/list/list.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"html/record/record.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf"
+		]
+	},
+	"html/main/tab-webview-subpage-setting.html": {
+		"resources": [
+			"js/mui.min.js"
+		]
+	},
+	"html/main/tab-webview-subpage-contact.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"html/main/tab-webview-subpage-chat.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"html/main/tab-webview-subpage-about.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	}
 }

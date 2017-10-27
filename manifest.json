@@ -232,13 +232,17 @@
 				"resources": [
 					"js/mui.min.js",
 					"fonts/mui.ttf",
-					"css/mui.min.css"
+					"css/mui.min.css",
+					"html/list/list.html",
+					"html/main/tab-webview-subpage-about.html"
 				],
 				"refer": [
 					"html/log/login.html",
 					"html/setting/setting.html",
-					"html/list/list.html",
-					"html/record/record.html"
+					"html/record/record.html",
+					"html/main/tab-webview-subpage-chat.html",
+					"html/main/tab-webview-subpage-contact.html",
+					"html/main/tab-webview-subpage-setting.html"
 				],
 				"priority": 0
 			},
@@ -281,6 +285,68 @@
 					"js/mui.min.js",
 					"css/mui.min.css",
 					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/login/login.html": {
+				"resources": [
+					"html/login/js/app.js",
+					"html/login/js/mui.enterfocus.js",
+					"html/login/images/sinaweibo.png",
+					"js/mui.min.js",
+					"html/login/images/qq.png",
+					"css/mui.min.css",
+					"html/login/images/weixin.png",
+					"fonts/mui.ttf"
+				],
+				"refer": [
+					"html/login/main.html",
+					"html/login/reg.html"
+				],
+				"priority": 0
+			},
+			"html/login/reg.html": {
+				"resources": [
+					"html/login/css/style.css",
+					"html/login/js/app.js",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
+				],
+				"refer": [
+					"html/login/login.html"
+				],
+				"priority": 0
+			},
+			"html/main/tab-webview-subpage-setting.html": {
+				"resources": [
+					"js/mui.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/main/tab-webview-subpage-contact.html": {
+				"resources": [
+					"js/mui.min.js",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/main/tab-webview-subpage-chat.html": {
+				"resources": [
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/main/tab-webview-subpage-about.html": {
+				"resources": [
+					"js/mui.min.js",
+					"css/mui.min.css"
 				],
 				"refer": [],
 				"priority": 0
