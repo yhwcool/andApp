@@ -1,0 +1,158 @@
+.mui-content{
+	width: 94%;
+	margin:0;
+	padding:0;
+	margin-left:3%;
+}
+.mui-bar-nav~.mui-content {
+    padding-top: 22px;
+}
+.mui-content>section{
+	margin:0;
+	padding:0;
+	width: 100%;
+	background:#FFFFFF;
+	border: 1px solid #f5f4fa;
+}
+
+.topnews_selection .mui-row{
+	margin-top:25px;
+}
+.topnews_selection{
+	border: 1px solid #f5f4fa;
+	height:130px;
+}
+
+.topnews_selection .mui-col-sm-8{
+	text-indent:12px;
+	line-height:30px;
+	
+}
+.topnews_selection .mui-col-sm-8 dl dt{
+	margin-top:2px;
+	font-size:0.875em;
+	font-weight:600;
+	color: #383175;
+}
+.topnews_selection .mui-col-sm-8 dl dd{
+	margin-top:2px;
+	font-size:0.75em;
+	font-weight:550;
+	color: #878787;
+}
+
+.all_integral_selection{
+	height:160px;
+	margin-top:10px !important;
+	width:100%;
+}
+.section_header_div_1{
+	height:60px;
+	line-height:60px;
+}
+.section_header_div_1 div{
+	font-size:0.875em;
+}
+.all_integral_vertical_span{
+	color:#383175;
+	padding-right:5px;
+	padding-left:10px;
+}
+.all_integral_selection__span{
+	padding-left:50%;
+}
+.all_integral_font_span{
+	padding-right:10px;
+}
+.selection_content{
+	text-align: center;
+	line-height:40px;
+}
+.all_integral_selection.selection_content{
+	text-align: center;
+	line-height:55px;
+}
+.all_integral_selection_dl dt span{
+	font-size:1.2em!important;
+}
+.all_integral_selection_dl_dt_red span{
+	color: #f2a08c;
+	
+}
+.all_integral_selection_dl_dt_ash span{
+	color: #bbbbbb;
+}
+.all_integral_selection_dl_dt_blue span{
+	color: #00b5e6;
+}
+.all_integral_selection_dl dd{
+	font-size:0.75em;
+	font-weight: 600;
+	color:#333333;
+}
+
+
+
+.person_integral_selection{
+	height:160px;
+	margin-top:10px !important;
+	width:100%;
+}
+
+
+.person_integral_selection_header_div_1{
+	height:60px;
+	line-height:60px;
+}
+.person_integral_selection_header_div_1 div:first-of-type{
+	text-align: left!important;
+	font-size: 0.875em;
+	color: #333333;
+	font-weight:600;
+}
+.person_integral_tatal{
+	font-size: 1.5em;
+	padding-left:8px;
+	color: #e91f05;
+}
+
+.all_integral_vertical_span{
+	color:#CCCCCC !important;
+	padding-right:10px;
+}
+.person_integral_selection_content div{
+	text-align: center;
+	line-height:35px;
+}
+.person_integral_selection_content div dl dt{
+	font-size: 0.875em;
+	color: #333333;
+	font-weight:600;
+}
+.person_integral_selection_content div dl dt {
+	background: #e2ebf4 ;
+}
+.person_integral_selection_content div dl dd{
+	font-size: 0.75em;
+	color: #333333;
+	font-weight:600;
+}
+
+
+.mouth_integral_selection{
+	margin-top:10px!important;
+}
+.mouth_integral_tatal{
+	color: #0699d2;
+	font-size:1.5em;
+	padding-left:8px;
+}
+.mouth_integral_selection_tips{
+	margin-top:30px;
+	font-size:0.75em;
+	text-align: center;
+}
+
+.mouth_integral_selection_tips p span{
+	font-size:0.75em;
+}

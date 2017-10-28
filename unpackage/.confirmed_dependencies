@@ -41,7 +41,9 @@
 			"js/mui.min.js",
 			"fonts/mui.ttf",
 			"css/mui.min.css",
-			"html/main/tab-webview-subpage-about.html"
+			"html/main/tab-webview-subpage-about.html",
+			"html/main/tab-webview-subpage-setting.html",
+			"html/main/tab-webview-subpage-product.html"
 		],
 		"refer": [
 			"html/log/login.html",
@@ -51,7 +53,11 @@
 			"html/main/tab-webview-subpage-chat.html",
 			"html/main/tab-webview-subpage-contact.html",
 			"html/main/tab-webview-subpage-setting.html",
-			"html/main/tab-webview-subpage-about.html"
+			"html/main/tab-webview-subpage-about.html",
+			"html/main/tab-webview-subpage-phoneprofit.html",
+			"html/main/tab-webview-subpage-product.html",
+			"html/main/tab-webview-subpage-order.html",
+			"html/main/tab-webview-subpage-chargeprofit.html"
 		]
 	},
 	"html/log/reg.html": {
@@ -114,6 +120,38 @@
 		]
 	},
 	"html/main/tab-webview-subpage-about.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"html/main/tab-webview-subpage-order.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"js/h.min.js"
+		]
+	},
+	"html/main/tab-webview-subpage-chargeprofit.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/main.css",
+			"css/common.css"
+		]
+	},
+	"html/main/tab-webview-subpage-phoneprofit.html": {
+		"resources": [
+			"css/main.css",
+			"js/mui.min.js",
+			"css/common.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"html/main/tab-webview-subpage-product.html": {
 		"resources": [
 			"js/mui.min.js",
 			"css/mui.min.css"
